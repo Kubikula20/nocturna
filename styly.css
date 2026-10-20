@@ -1,0 +1,71 @@
+body {
+    background-color: #101815;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: #18221e;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #c9a45c;
+}
+
+a {
+    color: orange;
+text-decoration: none;
+}
+
+a:hover {
+color: rgb(207, 0, 0);
+}
+nav a {
+    color: white;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #c9a45c;
+}
+
+.menu-odkaz:hover {
+color: darkred;
+}
+
+.uvod {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.uvod h2 {
+    font-size: 40px;
+}
+
+.uvod a {
+    background-color: #c9a45c;
+    color: black;
+    padding: 10px;
+}
+
+.o-restauraci {
+    text-align: center;
+    padding: 50px;
+}
+.fotka-restaurace {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #18221e;
+    text-align: center;
+    padding: 20px;
+}
