@@ -15,6 +15,23 @@ h1 {
     color: #c9a45c;
 }
 
+h2 {
+    color: #c9a45c;
+}
+
+h1 a {
+    color: #c9a45c;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #c9a45c;
+}
+
+b {
+    color: #c9a45c;
+}
+
 a {
     color: orange;
 text-decoration: none;
@@ -38,7 +55,7 @@ color: darkred;
 
 .uvod {
     text-align: center;
-    padding: 100px 20px;
+    padding: 100px 20px 20px;
 }
 
 .uvod h2 {
@@ -55,17 +72,53 @@ color: darkred;
     text-align: center;
     padding: 50px;
 }
+
 .fotka-restaurace {
     width: 80%;
     max-width: 600px;
     height: auto;
     display: block;
     margin: 25px auto;
-    border-radius: 5px;
 }
 
 footer {
     background-color: #18221e;
     text-align: center;
     padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px 10px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .uvod {
+        padding: 50px 15px;
+    }
+
+    .uvod h2 {
+        font-size: 30px;
+    }
+
+    .o-restauraci {
+        padding: 25px 15px;
+    }
+
+    .fotka-restaurace {
+        width: 100%;
+    }
+
+    iframe {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 15px 10px;
+    }
 }
